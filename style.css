@@ -6,4 +6,58 @@
     text-align: center;
     font-size: 80px;
     font-weight: bold;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navlist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+nav {
+    margin: 25px;
+    background-color:tan;
+    padding: 16px;
+    
+}
+a {
+    text-decoration: none;
+    color: #8f8f8f;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
+}
+li {
+    margin: 30px;
+}
+
+.alcim1{
+    margin: 20px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+.osztalykep1{
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    top: 500px;
+    right: 10px;
+}
+.mechwartlogo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 920px;
+    top: 165px;
+  
+}
+#szoveg1{
+    font-size: 25px;
+}
+.mg{
+    margin: 10px;
 }
