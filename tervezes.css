@@ -10,6 +10,7 @@ body{
 .kozep{
    
     font-size: 30px;
+    font-size: 300%;
 }
 .img1{
     width: 20%;
@@ -70,5 +71,6 @@ nav ul li:hover{
 }
 .row{
     justify-content: center;
+    align-items: center;
  
 }
