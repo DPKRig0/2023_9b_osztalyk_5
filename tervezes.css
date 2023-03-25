@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    width: 99%;
 }
 #colorwhite{
     color: white;
@@ -62,4 +63,12 @@ nav ul li:hover{
    font-size: 20px;
    font-family: sans-serif;
 }
-
+.col{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.row{
+    justify-content: center;
+ 
+}
