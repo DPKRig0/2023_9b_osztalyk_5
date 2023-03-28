@@ -9,8 +9,7 @@ body{
 }
 .kozep{
    
-    font-size: 30px;
-    font-size: 300%;
+    font-size: 50px;
 }
 .img1{
     width: 20%;
@@ -71,6 +70,26 @@ nav ul li:hover{
 }
 .row{
     justify-content: center;
-    align-items: center;
  
 }
+.zoomable-link {
+    display: inline-block; /* or block, depending on your layout */
+    overflow: hidden;
+    width: 200px; /* set your desired initial size */
+    height: auto; /* set your desired initial size */
+  }
+  
+  .zoomable-link img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in; /* set your desired transition effect */
+  }
+  
+  .zoomable-link:hover img {
+    transform: scale(1.5); /* set your desired zoom level */
+  }
+  .kozep{
+align-items: center;
+text-align: center;
+margin: auto;
+justify-content: center;}

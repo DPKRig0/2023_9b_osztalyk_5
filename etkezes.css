@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    width: 99%;
+}
+#color1{
+    color: white;
+    text-align: center;
+}
+nav {
+    margin: auto;
+    background: black;
+    padding: 16px;
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px solid white;
+   
+    
+}
+li {
+    margin: 10px;
+  
+   
+    
+    margin: auto;
+    
+    
+    
+}
+a {
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    
+}.menuItems {
+    list-style: none;
+    display: flex;
+}
+nav ul li:hover{
+    border-bottom: 2px solid #fff;
+}
+.nagy{
+    font-size: 50px;
+
+}
+.inidient{
+    line-height: 30px;
+   font-size: 17px;
+   font-family: sans-serif;
+}
