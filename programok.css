@@ -1,12 +1,9 @@
-
 body{
     background-color: black;
     width: 99%;
 }
-#color1{
-    color: white;
-    text-align: center;
-}
+
+
 nav {
     margin: auto;
     background: black;
@@ -45,12 +42,16 @@ a {
 nav ul li:hover{
     border-bottom: 2px solid #fff;
 }
-.nagy{
-    font-size: 50px;
 
-}
 .indent{
     line-height: 50px;
     font-size: 20px;
     font-family: sans-serif;
  }
+ #color1{
+    color: white;
+    text-align: center;
+}
+.focim{
+    font-size: 50px;
+}
